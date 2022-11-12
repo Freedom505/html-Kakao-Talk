@@ -1,0 +1,14 @@
+/*FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+/*RESET*/
+@import "reset.css";
+/* ROOT*/
+@import "root.css";
+/*components*/
+@import "components/ststus-bar.css";
+/*screen*/
+@import "screen/index.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
