@@ -15,103 +15,105 @@
   </head>
 
   <body>
-    <div class="ststus-bar">
-      <div>
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>0%</span>
         <i class="fa-solid fa-battery-empty"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
+      </div>
     <main >
       <div class="header">
-        <div>
+        <div class="header__column">
           Find
         </div>
-        <div>
-          <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="header__column">
+          <i class="fa-solid fa-magnifying-glass "></i>
           <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
         </div>
       </div>
 
       <div class="icon-box">
-        <div>
+        <div class="icon-box__column">
             <i class="fa-solid fa-qrcode"></i>
             <span>QR Code</span>
         </div>
-        <div>
+        <div class="icon-box__column">
             <i class="fa-solid fa-address-book"></i>
-            <span>Add by Contects</span>
+            <span>Add by </span>
+            <span>Contects</span>
         </div>
-        <div>
+        <div class="icon-box__column">
             <i class="fa-solid fa-id-card"></i>
             <span>Add by ID</span>
         </div>
-        <div>
+        <div class="icon-box__column">
             <i class="fa-solid fa-envelope"></i>
             <span>Invite</span>
         </div>
       </div>
 
       <div class="recommended">
-        <div>Recommended Friends</div>
-        <div>you have no recommended friends.</div>
+        <div class="recommended__column">Recommended Friends</div>
+        <div class="recommended__column">you have no recommended friends.</div>
       </div>
 
       <div class="open-chat">
-        <div>Open Chat</div>
-        <div>
+        <div class="open-chat__column">Open Chat</div>
+        <div class="open-chat__column">
             <span>Go to Openchat Home</span>
             <i class="fa-solid fa-chevron-right"></i>
         </div>
       </div>
 
       <div class="content">
-        <div>
-            <div>
-                <div>
+        <div class="content__column">
+            <div class="content__column__column">
+                <div class="content__column__column__text">
                     <span>#BTS</span>
                     <span>#BTS#ARMY#FRIENDS</span>
                 </div>
-                <div>
+                <div class="content__column__column__img">
                     <img src="screenshots/me.jpg"/>
                     <span>802 members |</span>
                     <span>Active</span>
                 </div>
             </div>
-            <div>
+            <div class="content__column__column">
                 <img src="screenshots/me.jpg"/>
-                <div>
+                <div class="content__column__column__heart">
                     <i class="fa-solid fa-heart"></i>
                     <span>326</span>
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <div>
-                    <span>Bts Gang~</span>
-                    <span>#englishonly #ipurpleyou #jimin #taeta...</span>
-                </div>
-                <div>
-                    <img src="screenshots/me.jpg"/>
-                    <span>299 members |</span>
-                    <span>Active</span>
-                </div>
-            </div>
-            <div>
-                <img src="screenshots/me.jpg"/>
-                <div>
-                    <i class="fa-solid fa-heart"></i>
-                    <span>215</span>
-                </div>
-            </div>
-        </div>
+        <div class="content__column">
+          <div class="content__column__column">
+              <div class="content__column__column__text">
+                  <span>BTS Gang~</span>
+                  <span>#englishonly #ipurpleyou #jimin #taeta...</span>
+              </div>
+              <div class="content__column__column__img">
+                  <img src="screenshots/me.jpg"/>
+                  <span>299 members |</span>
+                  <span>Active</span>
+              </div>
+          </div>
+          <div class="content__column__column">
+              <img src="screenshots/me.jpg"/>
+              <div class="content__column__column__heart">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>215</span>
+              </div>
+          </div>
+      </div>
       </div>
 
 
@@ -119,11 +121,11 @@
     </main>
 
     <nav class="nav">
-      <ul>
-        <li><a href="friends.html"><i class="fa-regular fa-user"></i></a></li>
-        <li><a href="chats.html"><i class="fa-regular fa-comment"></i></a></li>
-        <li><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li><a href="more.html"><i class="fa-solid fa-ellipsis"></i></a></li>
+      <ul class="nav__ul">
+        <li class="nav__ul__li"><a href="friends.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="nav__ul__li"><a href="chats.html"><i class="fa-regular fa-comment"></i></a><span>1</span></li>
+        <li class="nav__ul__li"><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="nav__ul__li"><a href="more.html"><i class="fa-solid fa-ellipsis"></i></a></li>
       </ul>
     </nav>
 

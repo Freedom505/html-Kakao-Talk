@@ -6,9 +6,19 @@
 @import "root.css";
 /*components*/
 @import "components/ststus-bar.css";
+@import "components/header.css";
+@import "components/profile.css";
+@import "components/nav.css";
 /*screen*/
 @import "screen/index.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 150vh;
+}
+a {
+  text-decoration: none;
 }

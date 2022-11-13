@@ -1,0 +1,22 @@
+.middle-bar {
+  margin: 20px -20px 10px -20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  align-items: center;
+}
+.middle-bar i:first-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+.middle-bar span {
+  margin-right: 20px;
+}
+.middle-bar i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+.index {
+  opacity: 10%;
+}

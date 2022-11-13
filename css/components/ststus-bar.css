@@ -1,9 +1,13 @@
 .status-bar {
   display: flex;
-  margin: 10px 10px 75px 10px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__column {
-  width: 33%;
+  width: 33.33%;
   align-items: center;
 }
 .status-bar__column:nth-child(2) {
@@ -14,15 +18,12 @@
   display: flex;
   justify-content: flex-end;
 }
-.status-bar__column:first-child span {
-  margin-right: 5px;
+
+.fa-battery-empty {
+  margin: 0px 3px;
 }
 .status-bar__column:nth-child(2) span {
   font-weight: 600;
-}
-.status-bar__column:last-child span,
-i {
-  margin-right: 3px;
 }
 .status-bar__column:last-child i:nth-child(2) {
   font-size: 21px;

@@ -15,27 +15,29 @@
   </head>
 
   <body>
-    <div class="ststus-bar">
-      <div>
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>0%</span>
         <i class="fa-solid fa-battery-empty"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
+      </div>
     <main >
       <div class="header">
-        <div>
+        <div class="header__column">
           Friends
         </div>
-        <div>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-music"></i>
+        <div class="header__column">
+          <i class="fa-solid fa-magnifying-glass "></i>
+          
+          <i class="fa-solid fa-music "></i>
           <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
         </div>
       </div>
@@ -47,13 +49,13 @@
       </div>
 
       <div class="profile-big">
-        <div>
+        <div class="profile-big__column">
           <img src="screenshots/me.jpg">
-          <div>
-            <div>
-              Ho Yoon 
+      
+            <div class="profile-big__column__title">
+              Hoyoon
             </div>
-          </div>
+       
         </div>
         <!-- <div></div> -->
       </div>
@@ -64,26 +66,27 @@
       </div>
 
       <div class="profile-small">
-        <div>
+        <div class="profile-small__column">
           <img src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4">
-          <div>
-            <div>
+            <div class="profile-small__column__title">
               Channel 
             </div>
-          </div>
         </div>
-        <div>
+        <div class="profile-small__column">
           <span>2</span>
           <i class="fa-solid fa-chevron-right"></i>
         </div>
+        </div>
+
+        <a class="index" href="index.html"><span>index.html</span></a>
     </main>
 
     <nav class="nav">
-      <ul>
-        <li><a href="friends.html"><i class="fa-solid fa-user"></i></a></li>
-        <li><a href="chats.html"><i class="fa-regular fa-comment"></i></a></li>
-        <li><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li><a href="more.html"><i class="fa-solid fa-ellipsis"></i></a></li>
+      <ul class="nav__ul">
+        <li class="nav__ul__li"><a href="friends.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="nav__ul__li"><a href="chats.html"><i class="fa-regular fa-comment"></i></a><span>1</span></li>
+        <li class="nav__ul__li"><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="nav__ul__li"><a href="more.html"><i class="fa-solid fa-ellipsis"></i></a></li>
       </ul>
     </nav>
 
