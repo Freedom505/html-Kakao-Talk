@@ -15,99 +15,116 @@
   </head>
 
   <body>
-    <div class="ststus-bar">
-      <div>
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>0%</span>
         <i class="fa-solid fa-battery-empty"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
-
+      </div>
     <main >
       <div class="header">
-        <div>
+        <div class="header__column">
           More
         </div>
-        <div>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-music"></i>
-          <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
+        <div class="header__column">
+          <i class="fa-solid fa-magnifying-glass "></i>
+        
+          <i class="fa-solid fa-music "></i>
+          <div class="more__span"><a href="settings.html"><i class="fa-solid fa-gear"></i><span class="span"></span></a></div>
         </div>
       </div>
-
       <div class="profile-big">
-        <div>
+        <div class="profile-big__column">
           <img src="screenshots/me.jpg">
-          <div>
-            <div>
-              Ho Yoon 
+          <div class="profile-big__column__text">
+            <div class="profile-big__column__title">
+              Hoyoon
             </div>
-            <div>
-                <span>+1 787-493-4219</span>
-                <i class="fa-solid fa-circle-info"></i>
+            <div class="profile-big__column__subtitle">
+              <span>+1 787-493-4219</span>
+              <i class="fa-solid fa-circle-info"></i>
             </div>
           </div>
+       
         </div>
-        <div>
-            <i class="fa-solid fa-book"></i>
-        </div>
+          <div class="profile-big__column2">
+            <i class="fa-regular fa-message"></i>
+          </div>
       </div>
 
-      <div class="icon-box">
-        <div>
-            <i class="fa-regular fa-calendar"></i>
+      <div class="icon-box border-none">
+        <div class="icon-box__column">
+          <i class="fa-regular fa-calendar"></i>
             <span>Calendar</span>
         </div>
-        <div>
-            <i class="fa-solid fa-hard-drive"></i>
+        <div class="icon-box__column">
+          <i class="fa-solid fa-hard-drive"></i>
             <span>Talk Drive</span>
+           
         </div>
-        <div>
-            <i class="fa-regular fa-face-smile"></i>
+        <div class="icon-box__column">
+          <i class="fa-regular fa-face-smile"></i>
             <span>Emoticons</span>
         </div>
-        <div>
-            <i class="fa-solid fa-brush"></i>
-            <span>Themes</span>
+        <div class="icon-box__column">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Invite</span>
         </div>
       </div>
 
-      <div class="icon-box">
-        <div>
-            <i class="fa-solid fa-book"></i>
+      <div class="icon-box minus-margin">
+        <div class="icon-box__column">
+          <i class="fa-solid fa-book-open-reader"></i>
             <span>Account</span>
         </div>
-        <div>
-            <i class="fa-regular fa-comments"></i>
+        <div class="icon-box__column">
+          <i class="fa-regular fa-comments"></i>
             <span>Openchat</span>
+           
+        </div>
+        <div class="icon-box__column">
+          <i class="fa-regular fa-face-smile opacity"></i>
+            <span class="opacity">Emoticons</span>
+        </div>
+        <div class="icon-box__column">
+            <i class="fa-solid fa-envelope opacity"></i>
+            <span class="opacity">Invite</span>
         </div>
       </div>
+    
+      
+      
 
       <div class="suggestions">
-        <div>
-            <div>
-                <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <span>Kakao Story</span>
-        </div>
-        <div>
+        <div class="suggestions__title">Suggestions</div>
+        <div class="suggestions__colmn">
+        <div class="suggestions__column__column">
             <div>
                 <img src="screenshots/me.jpg"/>
             </div>
-            <span>kakao friends</span>
+            <span class="suggestions__span">Kakao Story</span>
         </div>
-        <div>
+        <div class="suggestions__column__column">
             <div>
                 <img src="screenshots/me.jpg"/>
             </div>
-            <span>Friends Gem</span>
+            <span class="suggestions__span">kakao friends</span>
         </div>
+        <div class="suggestions__column__column">
+            <div>
+                <img src="screenshots/me.jpg"/>
+            </div>
+            <span class="suggestions__span">Friends Gem</span>
+        </div>
+      </div>
 
       </div>
 
@@ -116,10 +133,10 @@
 
     <nav class="nav">
       <ul class="nav__ul">
-        <li class="nav__ul__li"><a href="friends.html"><i class="fa-solid fa-user"></i></a></li>
-        <li class="nav__ul__li"><a href="chats.html"><i class="fa-regular fa-comment"></i></a><span>1</span></li>
-        <li class="nav__ul__li"><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li class="nav__ul__li"><a href="more.html"><i class="fa-solid fa-ellipsis"></i></a></li>
+        <li class="nav__ul__li"><a href="friends.html"><i class="fa-solid fa-user hover__nav"></i></a></li>
+        <li class="nav__ul__li"><a href="chats.html"><div class="hover__nav"><i class="fa-regular fa-comment"></i></a><span>1</span></div></li>
+        <li class="nav__ul__li"><a href="find.html"><i class="fa-solid fa-magnifying-glass hover__nav"></i></a></li>
+        <li class="nav__ul__li"><a href="more.html"><i class="fa-solid fa-ellipsis hover__nav"></i></a></li>
       </ul>
     </nav>
 

@@ -8,6 +8,9 @@
   font-size: 25px;
   font-weight: 600;
 }
+.header__column:last-child {
+  display: flex;
+}
 
 .header__column:last-child i {
   font-size: 22px;
@@ -26,4 +29,17 @@
 }
 .fa-gear:hover {
   animation: gearr 1s linear infinite;
+}
+.more__span {
+  position: relative;
+}
+.span {
+  display: flex;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  background-color: tomato;
+  border-radius: 3.5px;
+  top: -3px;
+  right: 9px;
 }
