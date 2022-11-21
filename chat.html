@@ -14,71 +14,73 @@
     />
   </head>
 
-  <body>
-    <div class="ststus-bar">
-      <div>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div>
+      <div class="status-bar__column">
         <span>0%</span>
         <i class="fa-solid fa-battery-empty"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
+      </div>
 
-    <main>
+    <main class="chat__main">
         <div class="header-bar">
-            <a href="more.html"> <div><i class="fa-solid fa-chevron-left"></i></div></a>
-            <div>Hoyoon</div>
-            <div><i class="fa-solid fa-magnifying-glass"></i></div>
-            <i class="fa-solid fa-bars"></i>
+          <div class="header-bar__div"><a href="chats.html"> <i class="fa-solid fa-chevron-left fa-xl"></i></a></div>
+            <div class="header-bar__div">Hoyoon</div>
+            <div class="header-bar__div"><i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <i class="fa-solid fa-bars fa-xl"></i></div>
         </div>
 
         <div class="day">
-            <div>
+            <div class="day__div">
                 Tuesday, June 30, 2020
             </div>
         </div>
 
         <div class="chat-opponent">
-            <div>
-                <img src="screenshots/me.jpg"/>
-                <span>Hoyoon</span>
-                <div>
-                    <span>Hi!</span>
-                </div>
-                <div>
-                    21:27
-                </div>
+            <img src="screenshots/me.jpg"/>
+            <div class="chat-opponent__text">
+              <div class="chat-opponenn__title">Hoyoon</div>
+              <div class="chat-opponent__sub">
+                <div class="chat-opponent__hi">Hi!</div>
+                <div class="chat-opponent__time">21:27</div>
+              </div>
             </div>
         </div>
 
         <div class="chat-me">
-            <div>21:27</div>
-            <div>What's up?</div>
+            <div class="chat-me__time">21:27</div>
+            <div class="chat-me__text">What's up?</div>
         </div>
     </main>
 
-    <div class="chat-bar">
-        <div><i class="fa-regular fa-square-plus"></i></div>
-        <div>
-            <form>
-                <input type="text" placeholder="Input the chat...">
-            </form>
-            <i class="fa-regular fa-face-smile"></i>
-            <div>
-                <i class="fa-solid fa-arrow-up"></i>
-            </div>
-        </div>
+
+
+    <div class="reply">
+      <div class="reply__plus"><i class="fa-solid fa-square-plus fa-2x"></i></div>
+      <div class="reply__chat">
+        <input type="text" placeholder="Please write...">
+        <i class="fa-regular fa-face-smile fa-xl"></i>
+        <button>
+          <i class="fa-solid fa-up-long fa-xl"></i>
+        </button>
+      </div>
 
     </div>
 
 
     
   </body>
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+  </div>
   
   <script
       src="https://kit.fontawesome.com/634362e31b.js"
